@@ -16,6 +16,9 @@ The Dataset is taken from a kaggle challenge. <b>We are just going to use traini
 
 The data is a set of images chosen at various locations chosen at random in the subsurface. The images are 101 x 101 pixels and each pixel is classified as either salt or sediment. In addition to the seismic images, the depth of the imaged location is provided for each image. The goal of the competition is to segment regions that contain salt.
 
+## Implementation
+Implementation of UNet can be found in Notebook in the repository. It is done in `Pytorch` with `jupyter lab` environment.
+
 # References
 - https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
 - https://arxiv.org/abs/1505.04597
